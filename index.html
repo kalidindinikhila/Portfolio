@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhila Portfolio</title>
+    <meta name="description" content="Portfolio of Nikhila, a creative and modern Frontend Developer.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header" id="main-header">
+        <div class="container header-content">
+            <a href="#home" class="logo">NK</a>
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-spacing">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <h1 class="reveal delay-1">Hi, I'm <br><span class="gradient-text">Nikhila Kalidindi</span></h1>
+                    <p class="reveal delay-2 text-muted">B.Tech IT student passionate about creating innovative
+                        solutions through code. Exploring the intersection of technology and real-world problem solving.
+                    </p>
+                    <div class="hero-cta reveal delay-3">
+                        <a href="#about" class="btn-primary">About Me</a>
+                        <a href="#contact" class="btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-bg-shapes reveal-right delay-2">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+            <div class="scroll-down reveal delay-3">
+                <span>Scroll to explore</span>
+                <i class='bx bx-down-arrow-alt'></i>
+            </div>
+        </section>
+
+        <!-- Journey So Far (Education & Experience) -->
+        <section id="about" class="about section-spacing bg-alt">
+            <div class="container">
+                <div class="about-grid reveal">
+                    <!-- Left: content -->
+                    <div class="about-content">
+                        <h2>About Me</h2>
+                        <p class="about-description">
+                            Motivated and results-driven B.Tech 3rd-year IT student with a strong foundation in Python,
+                            C++, and Data Structures & Algorithms. Enthusiastic about building innovative tech
+                            solutions, participating in Technical events, and tackling real-world problems through code.
+                            Actively involved in hands-on projects and competitive programming, with a relentless
+                            passion for learning and staying ahead in the ever-evolving tech landscape.
+                        </p>
+                        <div class="about-actions">
+                            <a href="https://github.com/kalidindinikhila" target="_blank" class="btn-social">
+                                <i class='bx bxl-github'></i> GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/nikhila-kalidindi-0950bb322/" target="_blank"
+                                class="btn-social">
+                                <i class='bx bxl-linkedin'></i> LinkedIn
+                            </a>
+                            <a href="https://drive.google.com/file/d/1JeNfSSzdeNDRGARlwGmp5B4Sa9fkmzNz/view?usp=sharing"
+                                target="_blank" class="btn-accent-solid">
+                                <i class='bx bx-file'></i> Download Resume
+                            </a>
+                        </div>
+                        <a href="#projects" class="btn-accent-outline">View My Work</a>
+                    </div>
+
+                    <!-- Right: code block -->
+                    <div class="about-code-container reveal-right">
+                        <pre><code><span class="code-keyword">function</span> <span class="code-func">aboutMe</span><span class="code-bracket">() {</span>
+  <span class="code-keyword">const</span> <span class="code-variable">skills</span> = <span class="code-bracket">[</span>
+    <span class="code-string">'DSA'</span>,
+    <span class="code-string">'C++'</span>,
+    <span class="code-string">'Python'</span>
+  <span class="code-bracket">]</span>;
+
+  <span class="code-keyword">return</span> <span class="code-bracket">{</span>
+    <span class="code-variable">passion:</span> <span class="code-string">'Problem Solving'</span>,
+    <span class="code-variable">goal:</span> <span class="code-string">'Innovative Solutions'</span>
+  <span class="code-bracket">}</span>;
+<span class="code-bracket">}</span></code></pre>
+                    </div>
+                </div>
+
+                <!-- Timeline moved below -->
+                <div class="mt-8 pt-8">
+                    <div class="section-header reveal">
+                        <h2>Journey So Far</h2>
+                    </div>
+                    <div class="timeline-container">
+                        <h3 class="timeline-title reveal"><i class='bx bxs-graduation'></i> Education</h3>
+                        <div class="timeline">
+                            <!-- Edu 1 -->
+                            <div class="timeline-item reveal delay-1">
+                                <div class="timeline-dot"><i class='bx bxs-graduation'></i></div>
+                                <div class="timeline-card card">
+                                    <div class="timeline-header flex-between">
+                                        <h4>B.Tech in Information Technology</h4>
+                                        <span class="timeline-date"><i class='bx bx-calendar'></i> 2023 - Present</span>
+                                    </div>
+                                    <div class="timeline-subtitle text-accent">Shri Vishnu Engineering College for
+                                        Women,Bhimavaram
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Edu 2 -->
+                            <div class="timeline-item reveal delay-2">
+                                <div class="timeline-dot"><i class='bx bxs-graduation'></i></div>
+                                <div class="timeline-card card">
+                                    <div class="timeline-header flex-between">
+                                        <h4>Intermediate Education</h4>
+                                        <span class="timeline-date"><i class='bx bx-calendar'></i> 2021 - 2023</span>
+                                    </div>
+                                    <div class="timeline-subtitle text-accent">Narayana Junior College,Rajahmundry</div>
+                                    <p class="text-muted mt-2">Completed coursework in Mathematics, Physics & Chemistry
+                                        (MPC)</p>
+                                </div>
+                            </div>
+                            <!-- Edu 3 -->
+                            <div class="timeline-item reveal delay-3">
+                                <div class="timeline-dot"><i class='bx bxs-graduation'></i></div>
+                                <div class="timeline-card card">
+                                    <div class="timeline-header flex-between">
+                                        <h4>Secondary Education</h4>
+                                        <span class="timeline-date"><i class='bx bx-calendar'></i> 2018 - 2021</span>
+                                    </div>
+                                    <div class="timeline-subtitle text-accent">Narayana Group of Schools, Ravulapalem
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section-spacing">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>My <span class="text-accent">Skills</span></h2>
+                    <p class="text-muted">Technologies and concepts I work with</p>
+                </div>
+
+                <!-- Category Filter -->
+                <div class="filter-bar reveal delay-1">
+                    <button class="filter-btn active" data-category="all">All Skills (12)</button>
+                    <button class="filter-btn" data-category="programming">Programming (2)</button>
+                    <button class="filter-btn" data-category="backend">Backend (5)</button>
+                    <button class="filter-btn" data-category="cs">CS Fundamentals (5)</button>
+                </div>
+
+                <div class="skills-grid-v2">
+                    <!-- Programming -->
+                    <div class="skill-card-v2 reveal" data-category="programming">
+                        <i class='bx bxl-python'></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-card-v2 reveal" data-category="programming">
+                        <i class='bx bxl-c-plus-plus'></i>
+                        <span>C++</span>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skill-card-v2 reveal" data-category="backend">
+                        <i class='bx bx-data'></i>
+                        <span>SQL</span>
+                    </div>
+                    <div class="skill-card-v2 reveal" data-category="backend">
+                        <i class='bx bxl-nodejs'></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-card-v2 reveal" data-category="backend">
+                        <i class='bx bxl-django'></i>
+                        <span>Django</span>
+                    </div>
+
+                    <!-- CS Fundamentals -->
+                    <div class="skill-card-v2 reveal" data-category="cs">
+                        <i class='bx bx-network-chart'></i>
+                        <span>DSA</span>
+                    </div>
+                    <div class="skill-card-v2 reveal" data-category="cs">
+                        <i class='bx bx-chip'></i>
+                        <span>OS</span>
+                    </div>
+                    <div class="skill-card-v2 reveal" data-category="cs">
+                        <i class='bx bx-layer'></i>
+                        <span>DBMS</span>
+                    </div>
+                    <div class="skill-card-v2 reveal" data-category="cs">
+                        <i class='bx bx-code-block'></i>
+                        <span>OOP</span>
+                    </div>
+                    <div class="skill-card-v2 reveal" data-category="cs">
+                        <i class='bx bxl-github'></i>
+                        <span>Git & GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-spacing bg-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>My <span class="text-accent">Projects</span></h2>
+                    <p class="text-muted">Check out some of my recent work</p>
+                </div>
+
+                <div class="projects-container reveal delay-1">
+                    <div class="projects-tab-wrapper">
+                        <!-- Left: Project Tabs -->
+                        <div class="project-tab-list" id="project-tabs">
+                            <button class="project-tab active" data-project="classtrack">ClassTrack</button>
+                            <button class="project-tab" data-project="goalstack">GoalStack</button>
+                            <button class="project-tab" data-project="campusmart">Campus Mart</button>
+                        </div>
+
+                        <!-- Right: Project Content -->
+                        <div class="project-content-pane" id="project-content">
+                            <!-- ClassTrack -->
+                            <div class="project-details-card" id="details-classtrack">
+                                <h3>ClassTrack</h3>
+                                <p class="project-description">A comprehensive college management system designed to
+                                    streamline academic tracking, attendance, and assignment management for students and
+                                    teachers.</p>
+                                <div class="project-tech-tags">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">Express</span>
+                                    <span class="tech-tag">PostgreSQL</span>
+                                </div>
+                                <div class="project-actions-v2">
+                                    <a href="https://github.com/kalidindinikhila/ClassTrack" class="btn-outline"><i class='bx bxl-github'></i> Code</a>
+                                    <a href="https://github.com/kalidindinikhila/ClassTrack" class="btn-primary"><i class='bx bx-link-external'></i> Live Demo</a>
+                                </div>
+                                <a href="https://github.com/kalidindinikhila/ClassTrack" class="btn-details"><i class='bx bx-info-circle'></i> Project Details</a>
+                            </div>
+
+                            <!-- GoalStack -->
+                            <div class="project-details-card" id="details-goalstack" style="display:none;">
+                                <h3>GoalStack</h3>
+                                <p class="project-description">A sophisticated productivity platform that helps users
+                                    define, visualize, and track their personal and professional goals through an
+                                    intuitive stack-based interface.</p>
+                                <div class="project-tech-tags">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Django</span>
+                                    <span class="tech-tag">PostgreSQL</span>
+                                    <span class="tech-tag">React</span>
+                                </div>
+                                <div class="project-actions-v2">
+                                    <a href="#" class="btn-outline"><i class='bx bxl-github'></i> Code</a>
+                                    <a href="#" class="btn-primary"><i class='bx bx-link-external'></i> Live Demo</a>
+                                </div>
+                                <a href="#" class="btn-details"><i class='bx bx-info-circle'></i> Project Details</a>
+                            </div>
+
+                            <!-- Campus Mart -->
+                            <div class="project-details-card" id="details-campusmart" style="display:none;">
+                                <h3>Campus Mart</h3>
+                                <p class="project-description">A dedicated e-commerce marketplace for the college
+                                    community, allowing students to securely buy, sell, and rent items within their
+                                    campus network.</p>
+                                <div class="project-tech-tags">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                    <span class="tech-tag">Node.js</span>
+                                </div>
+                                <div class="project-actions-v2">
+                                    <a href="#" class="btn-outline"><i class='bx bxl-github'></i> Code</a>
+                                    <a href="#" class="btn-primary"><i class='bx bx-link-external'></i> Live Demo</a>
+                                </div>
+                                <a href="#" class="btn-details"><i class='bx bx-info-circle'></i> Project Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section-spacing bg-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Milestones & <span class="text-accent">Moments</span></h2>
+                    <p class="text-muted">Recognition of my technical journey and competitive programming excellence</p>
+                </div>
+
+                <div class="profile-cards-container reveal delay-1">
+                    <!-- LeetCode -->
+                    <a href="https://leetcode.com/u/kalidindinikhila/" target="_blank" class="profile-card">
+                        <div class="profile-icon">
+                            <i class='bx bx-code-alt'></i>
+                        </div>
+                        <div class="profile-info">
+                            <h3>LeetCode</h3>
+                            <p>520+ problems solved</p>
+                        </div>
+                    </a>
+
+                    <!-- HackerRank -->
+                    <a href="https://www.hackerrank.com/profile/23b01a1263" target="_blank" class="profile-card">
+                        <div class="profile-icon">
+                            <i class='bx bx-terminal'></i>
+                        </div>
+                        <div class="profile-info">
+                            <h3>HackerRank</h3>
+                            <p>4★ in Problem Solving</p>
+                        </div>
+                    </a>
+
+                    <!-- GeeksforGeeks -->
+                    <a href="https://www.geeksforgeeks.org/profile/kalidindinike5d" target="_blank"
+                        class="profile-card">
+                        <div class="profile-icon">
+                            <i class='bx bxs-terminal'></i>
+                        </div>
+                        <div class="profile-info">
+                            <h3>GeeksforGeeks</h3>
+                            <p>Active Problem Solver • DSA Enthusiast</p>
+                        </div>
+                    </a>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-spacing">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Get in <span class="text-accent">Touch</span></h2>
+                    <p class="text-muted">Have a project in mind or want to collaborate? I'd love to hear from you!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="card reveal delay-1">
+                            <h3 class="text-accent mb-4">Let's Connect</h3>
+                            <ul class="contact-links text-muted">
+                                <li><a href="mailto:kalidindinikhilavarma@gmail.com"><i class='bx bx-envelope'></i>
+                                        kalidindinikhilavarma@gmail.com</a></li>
+                                <li><a href="https://www.linkedin.com/in/nikhila-kalidindi-0950bb322/"
+                                        target="_blank"><i class='bx bxl-linkedin'></i> LinkedIn</a></li>
+                                <li><a href="https://github.com/kalidindinikhila" target="_blank"><i
+                                            class='bx bxl-github'></i> GitHub</a></li>
+                                <li class="location-item"><i class='bx bx-map'></i> Ravulapalem, Andhra Pradesh</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="card reveal delay-2 mt-6">
+                            <h3 class="text-accent mb-4">Quick Links</h3>
+                            <ul class="contact-links text-muted">
+                                <li><a href="https://nikhila.portfolio/" target="_blank"><i class='bx bx-link-external'></i> My Portfolio Website</a></li>
+                                <li><a href="https://drive.google.com/file/d/1JeNfSSzdeNDRGARlwGmp5B4Sa9fkmzNz/view?usp=sharing"
+                                        target="_blank"><i class='bx bx-file'></i> Download Resume</a></li>
+                                <li><a href="#projects"><i class='bx bx-folder'></i> View Projects</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper card reveal delay-3">
+                        <form class="contact-form" id="contact-form">
+                            <div class="input-group">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="input-group mt-4">
+                                <input type="email" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="input-group mt-4">
+                                <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary form-submit mt-6"><i class='bx bx-envelope'></i>
+                                Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p class="text-muted">&copy; 2026 Nikhila. <a href="https://nikhila.portfolio/" target="_blank" class="footer-link">nikhila.portfolio</a>. Crafted with precision.</p>
+        </div>
+    </footer>
+
+    <div id="image-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="modal-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
